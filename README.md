@@ -13,7 +13,7 @@ Datasets used for the Initium Media's report on Hong Kong district council elect
   * members_of_18_district_councils_by_political_camp.csv
 5. 深水埗、灣仔、葵青區版圖變化
   * sham_shui_po’s_winning_candidates_by_camp.csv
-  * kuai_tsing’s_winning_candidates_by_camp.csv
+  * [kuai_tsing’s_winning_candidates_by_camp.csv](kuai_tsing's_winning_candidates_by_camp.csv)
   * wan_chai’s_winning_candidates_by_camp.csv
 
 ### Notes
