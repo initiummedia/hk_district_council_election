@@ -1,5 +1,14 @@
 # hk_district_council_election
 Datasets used for the Initium Media's report on Hong Kong district council elections
+
+### 抓取候選人提名網頁的腳本
+
+本腳本抓取候選人提名網頁 http://www.elections.gov.hk/dc2015/chi/nominat2.html ，整合成一個表格。使用 Python 2.7.x 或 Python 3.x。
+
+    cd scraper
+    pip install -r requirements.txt
+    python scraper.py
+
 ### Catalog
 1. 原始數據
   * [name_list_of_all_winning_candidates.csv](name_list_of_all_winning_candidates.csv)
