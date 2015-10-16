@@ -1,5 +1,15 @@
 # hk_district_council_election
 Datasets used for the Initium Media's report on Hong Kong district council elections
+
+### Scrapping Nominee List
+
+scraper.py is for scrapping http://www.elections.gov.hk/dc2015/chi/nominat2.html.
+Use Python 2.7.x or Python 3.x.
+
+    cd scraper
+    pip install -r requirements.txt
+    python scraper.py
+
 ### Catalog
 1. 原始數據
   * [name_list_of_all_winning_candidates.csv](name_list_of_all_winning_candidates.csv)
