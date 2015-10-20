@@ -25,8 +25,14 @@ Use Python 2.7.x or Python 3.x.
   * [sham_shui_po_winning_candidates_by_camp.csv](sham_shui_po_winning_candidates_by_camp.csv)
   * [kuai_tsing_winning_candidates_by_camp.csv](kuai_tsing_winning_candidates_by_camp.csv)
   * [wan_chai_winning_candidates_by_camp.csv](wan_chai_winning_candidates_by_camp.csv)
+6. 各政黨參選情況
+  * [candidates_by_party.csv](candidates_by_party.csv)
 
 ### Notes
-1. 原始數據中，端傳媒對「建制派」、「泛民派」、「其他」三項的分類是依據對所有當選議員所屬的政治組織背景的調查判定，而非僅是議員本人所申報的政治聯繫。
-2. 數據來源：香港中文大學香港亞太研究所出版《香港選舉資料彙編》、[香港區議會選舉官方網站](http://www.eac.gov.hk/ch/distco/dce.htm)
+1. 原始數據中，端傳媒對「建制派」、「泛民派」、「其他」三項的分類是依據對所有當選議員所屬的政治組織背景的調查判定，而非僅是議員本人所申報的政治聯繫。候選人派別分類負責人：江雁南；參與人：鄒淑樺、張曉怡、曾子琪。
+2. 數據來源：香港中文大學香港亞太研究所出版《香港選舉資料彙編》、[香港區議會選舉官方網站](http://www.eac.gov.hk/ch/distco/dce.htm)。數據整理負責人：巢恬逸。
 3. 選民登記率計算方法為：登記選民數／居民數
+
+### Related Publications
+1. [1999-2015 香港區議會選戰圖](https://theinitium.com/project/20151012-hk-district-council-elections/)
+2. [1999-2015 香港區選：政黨勢力變化圖](https://theinitium.com/project/20151019-hk-district-council-elections-2/)
