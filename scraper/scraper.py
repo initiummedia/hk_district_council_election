@@ -17,8 +17,8 @@ for url in detail_url:
     df_new = pd.read_html(response.text, header = 0)[0]
     df_all = df_all.append(df_new, ignore_index = True)
 
-csv_nomination = 'nomination_' + date +'.csv'
-df_all.to_csv(csv_nomination ,encoding=ENCODING)
+CSV_NOMINATION = 'nomination_' + date +'.csv'
+df_all.to_csv(CSV_NOMINATION ,encoding=ENCODING)
 
 print('Data last updated on ' + date + '.')
-print('Saved to ' + csv_nomination)
+print('Saved to ' + CSV_NOMINATION)
