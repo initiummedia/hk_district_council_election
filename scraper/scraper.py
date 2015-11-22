@@ -2,21 +2,23 @@ import requests
 import re
 import pandas as pd
 
-root_url = 'http://www.elections.gov.hk/dc2015/'
-index_url = root_url + 'chi/nominat2.html'
-index_response = requests.get(index_url)
+ROOT_URL = 'http://www.elections.gov.hk/dc2015/'
+INDEX_URL = ROOT_URL + 'chi/nominat2.html'
+index_response = requests.get(INDEX_URL)
 detail_url = re.findall(r'pdf/nomination/\S*_c.html', index_response.text)
 date = re.findall(r'\d+', detail_url[0])[0]
-detail_url = [root_url + url for url in detail_url]
+detail_url = [ROOT_URL + url for url in detail_url]
 
 df_all = pd.DataFrame()
-encode_name='utf_8'
+ENCODING = 'utf_8'
 for url in detail_url:
     response = requests.get(url)
-    response.encoding = encode_name
+    response.encoding = ENCODING
     df_new = pd.read_html(response.text, header = 0)[0]
     df_all = df_all.append(df_new, ignore_index = True)
-    df_all.to_csv('nomination_' + date +'.csv',encoding=encode_name)
+
+csv_nomination = 'nomination_' + date +'.csv'
+df_all.to_csv(csv_nomination ,encoding=ENCODING)
 
 print('Data last updated on ' + date + '.')
-print('Saved to nomination_' + date + '.csv')
+print('Saved to ' + csv_nomination)
