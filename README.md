@@ -27,6 +27,12 @@ Use Python 2.7.x or Python 3.x.
   * [wan_chai_winning_candidates_by_camp.csv](wan_chai_winning_candidates_by_camp.csv)
 6. 各政黨參選情況
   * [candidates_by_party.csv](candidates_by_party.csv)
+7. 2015年傘兵選區及候選人
+  * [umbrella_soldiers_2015.csv](umbrella_soldiers_2015.csv)
+8. 2015年激戰選區
+  * [constituencies_with_fierce_competition_2015.csv](constituencies_with_fierce_competition_2015.csv)
+9. 2015年自動當選候選人
+  * [uncontested_constituencies_2015.csv](uncontested_constituencies_2015.csv)
 
 ### Notes
 1. 原始數據中，端傳媒對「建制派」、「泛民派」、「其他」三項的分類是依據對所有當選議員所屬的政治組織背景的調查判定，而非僅是議員本人所申報的政治聯繫。候選人派別分類負責人：江雁南；參與人：鄒淑樺、張曉怡、曾子琪。
@@ -36,3 +42,4 @@ Use Python 2.7.x or Python 3.x.
 ### Related Publications
 1. [1999-2015 香港區議會選戰圖](https://theinitium.com/project/20151012-hk-district-council-elections/)
 2. [1999-2015 香港區選：政黨勢力變化圖](https://theinitium.com/project/20151019-hk-district-council-elections-2/)
+3. [2015年香港區議會戰況地圖](https://theinitium.com/project/20151029-hk-district-council-elections-3/desktop.html/)
